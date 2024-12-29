@@ -31,10 +31,14 @@ button:hover{
     border-width: 2px;
 }
 
+#guess{
+    width: 10em;
+}
+
 #game_box{
     margin: auto;
     width: 50%;
-    padding: 10px;
+    padding: 5px;
     margin-top: 20%;
     line-height: 2;
     text-align: center;
@@ -42,9 +46,10 @@ button:hover{
 
 #guess_box{
     margin: auto;
-    width: 50%;
+    width: 60%;
     display: flex;
     padding: 10px;
+    background-color: aqua;
 }
 
 #play_sound{
