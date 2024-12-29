@@ -45,11 +45,8 @@ button:hover{
 }
 
 #guess_box{
-    margin: auto;
-    width: 60%;
-    display: flex;
+    margin: auto;;
     padding: 10px;
-    background-color: aqua;
 }
 
 #play_sound{
