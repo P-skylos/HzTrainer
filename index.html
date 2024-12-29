@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Hz Trainer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js"></script>
+    <script src="Hz.js"></script>
+</head>
+<body>
+    <div id="game_box">
+        <button id="play_sound" onclick="play()">Play Tone</button>
+        <div id="guess_box">
+            <input id="guess" type="number" min="20" max="20000" placeholder="what's the Hz?" onsubmit="check_and_update()">
+            <button id="submit_button" style="background-color: var(--primary);" onclick="check_and_update()">Guess</button>
+        </div>
+        <div id="status_box">
+            
+        </div>
+    </div>
+</body>
