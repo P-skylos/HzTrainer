@@ -1,4 +1,4 @@
-This is a little toy to try and train myself to recognize frequencies by ear. I got the idea while riding a plane and listening to the hum of the propeller outside my window. 
+This is a little toy to try and train myself to recognize frequencies by ear. I got the idea while riding a plane and listening to the hum of the propeller outside my window. It works by randomizing the tone and wave form after every correct guess. 
 
 # Wishlist
     - slider to control range of frequencies
